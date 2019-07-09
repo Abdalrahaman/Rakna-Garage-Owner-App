@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="menustyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">#fff</item>
+    </style>
+
+    <style name="TextLabelInput" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bg_button_style</item>
+        <item name="android:layout_width">@dimen/button_style_weight</item>
+        <item name="android:layout_height">@dimen/button_style_hight</item>
+        <item name="android:layout_marginTop">@dimen/dialog_btn_margin_top</item>
+    </style>
+
+    <style name="editext_gray">
+        <item name="android:textSize">@dimen/text_size_15</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:background">#D5D5D5</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="button_back_title_gray"
+        >
+        <item name="android:src">@drawable/back_press</item>
+    </style>
+
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RaknaGarageOwner</string>
+    <string name="menu_rakna">Rakna</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_profile_garage">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">1151467438371062</string>
+    <string name="fb_login_protocol_scheme">fb1151467438371062</string>
+    <string name="checkbox">com.example.raknagarageowner.view.HazemView.checkbox</string>
+    <string name="email">com.example.raknagarageowner.view.HazemView.email</string>
+    <string name="password">com.example.raknagarageowner.view.HazemView.password</string>
+    <string name="garage_id">com.example.raknagarageowner.view.HazemView.garage_id</string>
+
+    <string name="car_details">Phone Number  : 01008032952 \nCar Type : Mercedes\nCar License
+        : س أ ن 9628  </string>
+
+    <string name="username_chat">Username</string>
+    <string name="email_chat">Email</string>
+    <string name="password_chat">Password</string>
+    <string name="register_chat">Register</string>
+    <string name="login_chat">Login</string>
+    <string name="history">History</string>
+
+
+    <string name="signup">SIGN UP</string>
+    <string name="E_mail">E_mail</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+
+
+    <string name="input_emailorphone">E-mail address</string>
+
+    <string name="input_pwd">Input Password</string>
+
+</resources>

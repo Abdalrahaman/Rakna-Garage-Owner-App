@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".view.Islam.user_profile">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="50dp"
+        android:background="#FFFFFF"
+        android:layout_alignParentLeft="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/linear_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="200dp"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0.7dp"
+                app:cardMaxElevation="1dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/details"
+                        android:text=" User Details"
+                        android:textColor="@color/garage_background"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawableLeft="@drawable/user_name"
+                        android:drawableRight="@android:drawable/ic_menu_edit"
+                        android:text="User name"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/grey"
+                        android:textSize="19sp"
+                        android:editable="true"
+                        android:singleLine="true"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:cursorVisible="true"/>
+
+
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:drawableLeft="@drawable/phone"
+                        android:text="Phone"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/grey"
+                        android:textSize="19sp"
+                        android:editable="true"
+                        android:singleLine="true"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:cursorVisible="true"
+                        android:drawableRight="@android:drawable/ic_menu_edit"/>
+
+                    <TextView
+                        android:id="@+id/national_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:drawableLeft="@drawable/national_id"
+                        android:text="National ID number"
+                        android:drawablePadding="10dp"
+                        android:textColor="@color/grey"
+                        android:textSize="19sp"
+                        android:editable="true"
+                        android:singleLine="true"
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:cursorVisible="true"
+                        android:drawableRight="@android:drawable/ic_menu_edit"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0.7dp"
+                    app:cardMaxElevation="1dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/details"
+                            android:text=" Change password"
+                            android:textColor="@color/garage_background"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/old_"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:drawableLeft="@drawable/password_"
+                            android:text="Old password"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:drawablePadding="10dp"
+                            android:cursorVisible="true"
+                            android:drawableRight="@android:drawable/ic_menu_edit"/>
+
+
+                        <TextView
+                            android:id="@+id/new_"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:drawableLeft="@drawable/password_"
+                            android:text="New password"
+                            android:drawablePadding="10dp"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"
+                            android:drawableRight="@android:drawable/ic_menu_edit"/>
+
+                        <TextView
+                            android:id="@+id/confirm_"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:drawableLeft="@drawable/password_"
+                            android:text="Confirm password"
+                            android:drawablePadding="10dp"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"
+                            android:drawableRight="@android:drawable/ic_menu_edit"/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0.7dp"
+                    app:cardMaxElevation="1dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/details"
+                            android:text=" Location details"
+                            android:textColor="@color/garage_background"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/latitude"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:drawableLeft="@drawable/location"
+                            android:text="Latitude"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:drawablePadding="10dp"
+                            android:cursorVisible="true"/>
+
+
+                        <TextView
+                            android:id="@+id/longitude"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:drawableLeft="@drawable/location"
+                            android:text="Longitude"
+                            android:drawablePadding="10dp"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"/>
+
+                        <ImageButton
+                            android:id="@+id/GPS"
+                            android:layout_width="40dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="end"
+                            android:alpha="0.7"
+                            android:src="@drawable/add_location"
+                            android:background="@drawable/button_location_action"/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0.7dp"
+                    app:cardMaxElevation="1dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/details"
+                            android:text=" Garage Details"
+                            android:textColor="@color/garage_background"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/width"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:drawableLeft="@drawable/width"
+                            android:drawableRight="@android:drawable/ic_menu_edit"
+                            android:text="Garage width"
+                            android:drawablePadding="10dp"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"/>
+
+
+                        <TextView
+                            android:id="@+id/length"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:drawableLeft="@drawable/length"
+                            android:text="Garage length"
+                            android:drawablePadding="10dp"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"
+                            android:drawableRight="@android:drawable/ic_menu_edit"/>
+
+                        <TextView
+                            android:id="@+id/height"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:drawableLeft="@drawable/height"
+                            android:text="Garage height"
+                            android:drawablePadding="10dp"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"
+                            android:drawableRight="@android:drawable/ic_menu_edit"/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0.7dp"
+                    app:cardMaxElevation="1dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:contentPadding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@drawable/details"
+                            android:text=" Garage services"
+                            android:textColor="@color/garage_background"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/wash"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:text="Wash"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"
+                            android:buttonTint="#ddd"
+                            android:paddingLeft="10dp"/>
+
+                        <CheckBox
+                            android:id="@+id/lubrication"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:text="Lubrication"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"
+                            android:buttonTint="#ddd"
+                            android:paddingLeft="10dp"/>
+
+                        <CheckBox
+                            android:id="@+id/maintenance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
+                            android:text="Maintenance"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"
+                            android:buttonTint="#ddd"
+                            android:paddingLeft="10dp"/>
+
+                        <CheckBox
+                            android:id="@+id/oil_change"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="15dp"
+                            android:text="Oil change"
+                            android:textColor="@color/grey"
+                            android:textSize="19sp"
+                            android:editable="true"
+                            android:singleLine="true"
+                            android:focusable="true"
+                            android:clickable="true"
+                            android:cursorVisible="true"
+                            android:buttonTint="#ddd"
+                            android:paddingLeft="10dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                    <Button
+                        android:id="@+id/save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_action"
+                        android:text="SAVE"
+                        android:layout_gravity="end"
+                        android:textColor="@color/garage_background"
+                        android:textSize="15sp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"/>
+
+
+            </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageview_account_profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#4E4E4E"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageview_account_profile"
+                android:text="Email"
+                android:textSize="15sp"
+                android:textColor="@color/garage_primary"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="10dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu"
+                android:layout_toRightOf="@id/email"
+                android:layout_below="@id/imageview_account_profile"
+                android:background="@drawable/menu"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

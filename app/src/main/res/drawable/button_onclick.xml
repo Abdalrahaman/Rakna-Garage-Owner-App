@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape='rectangle' xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="10dp"/>
+    <gradient android:centerColor="@color/card_garage_info" android:endColor="@color/card_garage_info" android:startColor="@color/card_garage_info"/>
+
+</shape>

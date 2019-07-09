@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/garage_background"
+    tools:context=".view.HazemView.ChatHomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/im_chat_welcome"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/icon_chat5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"/>
+
+        <TextView
+            android:id="@+id/tv_chat_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/im_chat_welcome"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Chat in Rakna App"
+            android:textColor="@color/garage_primary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_chat_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Rakna Chat"
+            android:textColor="@color/garage_primary"
+            android:gravity="center"
+            android:layout_below="@id/tv_chat_header" />
+
+
+        <Button
+            android:id="@+id/btn_loginChat_Rakna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded_corners_chat"
+            android:text="Login Chat By RAKNA App"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_below="@id/tv_chat_message"
+            android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+
+</FrameLayout>

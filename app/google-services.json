@@ -1,0 +1,183 @@
+{
+  "project_info": {
+    "project_number": "175932564767",
+    "firebase_url": "https://rakna-chat.firebaseio.com",
+    "project_id": "rakna-chat",
+    "storage_bucket": "rakna-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175932564767:android:19cf4bff90f43fb6",
+        "android_client_info": {
+          "package_name": "com.example.garage_owner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175932564767-2r9jdbofuercsv3ccclfk6m3o9t1inq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.garage_owner",
+            "certificate_hash": "ae5efb7299286bfc0f060c00e479f39ebe156055"
+          }
+        },
+        {
+          "client_id": "175932564767-0lnt21vrt5sqrrqrp3rudiabma6r6lfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfZRHRDXtdfzkHYQp1VqSKs2fYnqnB3Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175932564767-0lnt21vrt5sqrrqrp3rudiabma6r6lfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175932564767:android:077609baafd3a140",
+        "android_client_info": {
+          "package_name": "com.example.rakna.raknagraduationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175932564767-ndnmpiat17sb14ek01jt3oa5bkljo9ga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rakna.raknagraduationproject",
+            "certificate_hash": "1dff8e13d9278de352bfb7ccebfe1a5feb1dc28e"
+          }
+        },
+        {
+          "client_id": "175932564767-0lnt21vrt5sqrrqrp3rudiabma6r6lfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfZRHRDXtdfzkHYQp1VqSKs2fYnqnB3Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175932564767-0lnt21vrt5sqrrqrp3rudiabma6r6lfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175932564767:android:9f2c3de39b71a40d",
+        "android_client_info": {
+          "package_name": "com.example.raknachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175932564767-22gltdeqc6jhj48t4jssjoj2haguu1dr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raknachat",
+            "certificate_hash": "ae5efb7299286bfc0f060c00e479f39ebe156055"
+          }
+        },
+        {
+          "client_id": "175932564767-47v9ikeugrrlth752dcslb60bf554dle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raknachat",
+            "certificate_hash": "1dff8e13d9278de352bfb7ccebfe1a5feb1dc28e"
+          }
+        },
+        {
+          "client_id": "175932564767-foqckhcf0qljnh5d5vek1jh7p18kqs4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raknachat",
+            "certificate_hash": "2ba08d159b8205fc8fb0f6a9ddc53b2be4c4ceb4"
+          }
+        },
+        {
+          "client_id": "175932564767-lnhenvec89hdsq6odhkkcjqhmvn9tfau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raknachat",
+            "certificate_hash": "754adc28b2c73cb0e975783b71cb599d23b801d9"
+          }
+        },
+        {
+          "client_id": "175932564767-0lnt21vrt5sqrrqrp3rudiabma6r6lfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfZRHRDXtdfzkHYQp1VqSKs2fYnqnB3Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175932564767-0lnt21vrt5sqrrqrp3rudiabma6r6lfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175932564767:android:de7ec3aed3e7adac",
+        "android_client_info": {
+          "package_name": "com.example.raknagrageowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175932564767-22e4odrqt3e8at0ipj7aus68j53uu8pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raknagrageowner",
+            "certificate_hash": "3ae5a512f32446ff28ab97026fae097a1468430f"
+          }
+        },
+        {
+          "client_id": "175932564767-0lnt21vrt5sqrrqrp3rudiabma6r6lfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfZRHRDXtdfzkHYQp1VqSKs2fYnqnB3Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175932564767-0lnt21vrt5sqrrqrp3rudiabma6r6lfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

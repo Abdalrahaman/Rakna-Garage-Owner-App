@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/garage_primary"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_marginBottom="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+
+        <RelativeLayout
+            android:id="@+id/ly_history_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/customername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Car Owner Name"
+                android:textColor="@color/garage_background"
+                android:textSize="23dp"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="10dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"/>
+
+            <ImageView
+                android:id="@+id/iv_owner_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ratinglove"
+                android:padding="5dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.8"
+                android:layout_toLeftOf="@id/iv_owner_rate"
+                android:layout_centerVertical="true"
+                android:textColor="#A89701"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/customerpic"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ly_history_header"
+            android:src="@drawable/image_example"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/customernumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_phone_number"
+            android:layout_toRightOf="@id/customerpic"
+            android:layout_alignTop="@id/customerpic"
+            android:text="01008032952"
+            android:drawablePadding="10dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/customerdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_date"
+            android:drawablePadding="10dp"
+            android:text="21/2/2019"
+            android:layout_below="@id/customernumber"
+            android:layout_alignLeft="@id/customernumber"
+            android:paddingBottom="5dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/customertime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_from_to_time"
+            android:drawablePadding="10dp"
+            android:text="7:05 - 9:30"
+            android:layout_below="@id/customerdate"
+            android:layout_alignLeft="@id/customerdate"
+            android:paddingBottom="5dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/customercost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_cost"
+            android:drawablePadding="10dp"
+            android:text="2.50 LE"
+            android:layout_below="@id/customertime"
+            android:layout_alignLeft="@id/customertime"
+            android:paddingBottom="5dp"
+            android:textColor="@color/grey"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/garage_background"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f4a81</color>
+    <color name="colorPrimaryDark">#111c2d</color>
+    <color name="colorAccent">#009688</color>
+
+    <color name="alert">#009688</color>
+
+    <color name="garage_background">#ffffff</color>
+    <color name="garage_primary">#111c2d</color>
+    <color name="card_garage_info">#3d4354</color>
+
+    <color name="text_color_black">#ff444242</color>
+    <color name="light_gray">#ffb2b2b2</color>
+
+    <color name="white">#ffffff</color>
+    <color name="grey">#b8c0b8</color>
+
+    <color name="background3">#111c2d</color>
+    <color name="background">#8f8f8f</color>
+    <color name="white_button_press">#ffe5e5e5</color>
+
+
+    <color name="card_car_owner_info">#D4D4D4</color>
+    <color name="card_text_color">#000000</color>
+    <color name="communicate_layout_color">#737379</color>
+    <color name="communicate_text_color">#111c2d</color>
+    <color name="timer_color">#D1C4E9</color>
+
+    <color name="colorText">#000</color>
+    <color name="colorPrimary2">#1984b4</color>
+    <color name="black">#1b1b1b</color>
+    <color name="customblue">#FFD8DBD4</color>
+    <color name="color_noti_background">#e6e8f4</color>
+    <color name="color_time_ago">#6226f4</color>
+</resources>

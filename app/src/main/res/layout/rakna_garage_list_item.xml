@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#A4B3C2"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageview_account_profile"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/image_example"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <RelativeLayout
+                android:id="@+id/container_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/imageview_account_profile">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Garage Name"
+                    android:textColor="#5B5B5C"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/user_name"
+                    android:layout_alignLeft="@id/user_name"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="4.4"
+                    android:textColor="#E06060" />
+
+                <ImageView
+                    android:id="@+id/im_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/rate"
+                    android:layout_alignBottom="@id/rate"
+                    android:layout_toRightOf="@id/rate"
+                    android:src="@drawable/ratinglove" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/container_layout"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:text="02:50"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="75dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/phone"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle_button"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_phone_secondary"
+                android:paddingLeft="13dp"/>
+
+            <Button
+                android:id="@+id/chat"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle_button"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_chat_secondary"
+                android:paddingLeft="13dp"/>
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circle_button"
+                android:drawableLeft="@drawable/ic_profile_secondary"
+                android:paddingLeft="13dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

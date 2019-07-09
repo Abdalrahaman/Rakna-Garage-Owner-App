@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp">
+
+    <ImageView
+        android:id="@+id/owner_photo"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_example" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:padding="15dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_title_block"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/owner_photo"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/owner_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="Azer Nasr"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/owner_name"
+            android:paddingRight="10dp"
+            android:src="@drawable/ratinglove" />
+
+        <TextView
+            android:id="@+id/like_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/rate"
+            android:gravity="top"
+            android:text="4.4"
+            android:textColor="#D8CF56"/>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/details_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title_block"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="25dp"
+        android:text="Owner Details"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/details_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details_header"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="11dp"
+        android:lineSpacingExtra="3dp"
+        android:text="@string/car_details"
+        android:textColor="@color/grey"/>
+
+</RelativeLayout>

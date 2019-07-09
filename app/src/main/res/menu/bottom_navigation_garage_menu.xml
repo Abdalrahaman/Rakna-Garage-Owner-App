@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_rakna"
+        android:title="@string/menu_rakna"
+        android:icon="@drawable/rakna" />
+    <item android:id="@+id/action_notification"
+        android:title="@string/menu_notification"
+        android:icon="@drawable/ic_notification" />
+    <item android:id="@+id/action_profile"
+        android:title="@string/menu_profile_garage"
+        android:icon="@drawable/ic_rakna_garage" />
+    <item android:id="@+id/action_chat"
+        android:title="@string/menu_chat"
+        android:icon="@drawable/ic_chatting" />
+    <item android:id="@+id/action_camera"
+        android:title="@string/menu_camera"
+        android:icon="@drawable/ic_camera"/>
+
+
+</menu>

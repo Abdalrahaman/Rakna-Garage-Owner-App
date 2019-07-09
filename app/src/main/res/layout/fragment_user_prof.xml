@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".view.Islam.user_prof">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fra_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/garage_background"
+        android:scrollbars="vertical">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>
