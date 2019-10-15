@@ -2,7 +2,7 @@
 Rakna is a platform that can be accessed via mobile app, car owner rent a space for his car from a garage owner after checking the nearest garages and get the suitable one for him, having all garage data and access the security situation of the car via camera.
 
 <p float="left">
-<img src="(https://user-images.githubusercontent.com/35526918/66874745-7651da80-efac-11e9-9959-c2a80243455e.png" width=300>
+<img src="https://user-images.githubusercontent.com/35526918/66874745-7651da80-efac-11e9-9959-c2a80243455e.png" width=300>
 <img src="https://user-images.githubusercontent.com/35526918/66874746-7651da80-efac-11e9-9f9a-868bdd62c037.png" width=300>
 </p>
 
@@ -24,12 +24,6 @@ We can subdivide the project into 9 main features, Details of each of the follow
   </p>
 
 * Backend Server
-* Electronic Locks
-  <p float="left">
-  <img src="https://user-images.githubusercontent.com/35526918/66872098-700c3000-efa5-11e9-9f6c-a33b2a005e2b.png" width=150>
-  <img src="https://user-images.githubusercontent.com/35526918/66872049-51a63480-efa5-11e9-8aa0-57e1ceb894b8.png" width=300>
-  <img src="https://user-images.githubusercontent.com/35526918/66872048-51a63480-efa5-11e9-930b-daa37fb43c30.png" width=300>
-  </p>
   
 # System users (stakeholders)
   * Car owners
