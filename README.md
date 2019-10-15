@@ -41,7 +41,7 @@ We can subdivide the project into 9 main features, Details of each of the follow
       whose cars are already in the garage.
 
   -	**Notification Tab:** the function of this tab to make user always connecting with live events that performed/occurring at the garage such as:
-      -	A Warning Message /Notification telling user 
+      - A Warning Message /Notification telling user 
       
       -	security issues about client vehicle.
 
@@ -49,7 +49,7 @@ We can subdivide the project into 9 main features, Details of each of the follow
 
       -	A notification telling user that a car owner requested to reserve his garage.
 
-  -	**Profile Tab:** the function of this tab to display all information about a user and provide ability to make changes to user information such as reset password edit/update photo, national id number, location, garage area, user name and phone number.
+  -	**Profile Tab:** the function of this tab to display all information about a user and provide ability to make changes to user 	information such as reset password edit/update photo, national id number, location, garage area, user name and phone number.
 
   -	**Logout Menu Item:** that the user can log out of the system himself optionally.
 
